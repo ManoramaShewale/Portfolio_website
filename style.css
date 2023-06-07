@@ -1,0 +1,200 @@
+html {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    margin: 0;
+    /* font-family: Montserrat, sans-serif; */
+}
+
+:root {
+    --spacing-1: 1rem;
+    --spacing-2: 2.5rem;
+
+    --margin-size-1: 1.25rem;
+
+    --spacing-small-1: 0.625rem;
+}
+
+body {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+main {
+    color: black;
+}
+
+section {
+    margin-top: var(--margin-size-1);
+}
+
+details {
+    margin-top: .5rem;
+    border: 1px solid grey;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Themes */
+
+.darkMode {
+    color: white;
+    background-color: black;
+}
+
+
+
+/* Header */
+header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: teal;
+    padding-top: 1rem;
+}
+
+nav {
+    display: flex;
+}
+
+
+/*
+#toggleButton:hover {
+    background-color: blue;
+}
+*/
+
+h2#logo {
+    padding-left: var(--spacing-2);
+    margin-top: 1rem;
+    min-width: min-content;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+header li {
+    list-style: none;
+    padding: 0 2.5rem;
+    font-weight: bold;
+}
+  
+header a {
+    text-decoration: none;
+    color: black;
+    /*color: #00e;*/
+    transition: color 0.8s ease-out;
+}
+
+header a:hover {
+    color: #ffffff;
+    /* color: #551a8b; */
+}
+
+/*
+header a:visited {
+    color: #551a8b;
+}*/
+
+/* JS-Section */
+
+#js-section {
+    text-align: center;
+}
+
+#dateString {
+    display: none;
+    margin: 0 auto;
+}
+
+#toggle-button {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    height: auto;
+    margin: 0.5rem auto;
+    min-width: 10.5rem;
+}
+
+#toggle-button:hover {
+    border: 2px solid blue;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 1rem;
+    height: 2rem;
+}
+
+
+/* About Me Section */
+
+.About-Me-content {
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid grey;*/
+}
+
+.About-Me-text {
+    padding-left: var(--spacing-2);
+}
+
+#self-image {
+    width: 20rem;
+    height: 25rem;
+    /* border: solid 1px black; */
+    /* border-radius: rem; */
+    margin: var(--margin-size-5);
+}
+
+/* Projects Section */
+
+#codecademyProjects {
+    padding-left: var(--spacing-2);
+}
+
+.project-title h3 {
+    display: inline;
+    
+}
+
+.project-image {
+    margin: 1rem;
+    max-width: 75%;
+    margin-bottom: 0;
+}
+
+.project-description {
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.project-content h4 {
+    margin: --spacing-small-1 auto;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.link-text {
+    margin: 0;
+}
+
+.image{
+   margin: 1.4rem;
+   width: 5rem;
+   height: 5rem;
+    /* margin-bottom: 0; */
+}
+.ContactUs{
+    margin: 1.4rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+/* Footer */
+
+
+/* Media Queries */
